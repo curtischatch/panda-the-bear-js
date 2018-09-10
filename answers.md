@@ -1,3 +1,5 @@
+Part 1
+===========================
 1
   var profImage = document.querySelector( "img.profile-image" );
   profImage.src = 'https://placebear.com/g/400/400';
@@ -38,4 +40,6 @@
   document.querySelector( '#submit' ).setAttribute('value', 'En garde!');
 13.
 document.querySelector( '#submit' ).setAttribute('disabled', true);
- 
+
+Part 2
+======================
