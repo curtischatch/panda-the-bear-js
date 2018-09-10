@@ -43,3 +43,19 @@ document.querySelector( '#submit' ).setAttribute('disabled', true);
 
 Part 2
 ======================
+
+Removing elements from DOM
+--------------------------
+
+1.
+
+var rmTimeTravel = document.querySelector('#time-travel')
+rmTimeTravel.parentNode.removeChild(rmTimeTravel);
+
+Adding elements to the DOM
+--------------------------
+
+1.
+
+var pikachu = document.querySelector('#right-image img');
+var clonePikachu = pikachu.cloneNode();
